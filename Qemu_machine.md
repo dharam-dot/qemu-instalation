@@ -11,7 +11,11 @@ Ram:8 GB
 
 ## How do we install QEMU and install an OS on QEMU?
 
-<h5> Step - 1- Install qemu-system-aarch64</h5>
+<h5> Step - 1- Install qemu-system-aarch64 & QEMU_EFI.fd </h5>
+
+<p> apt-get install qemu-system-arm </p>
+
+<p> QEMU_EFI.fd (download link:http://releases.linaro.org/components/kernel/uefi-linaro/16.02/release/qemu64/) </p>
 
 <h5> Step - 2- Download the image you want to boot. <br> For our example we use an Ubuntu installer.</h5>
 
